@@ -1,0 +1,11 @@
+body {
+  /* background-color: #6fb06f; */
+  background-color: #8ed78e;
+  font-family: "poppins";
+  position: relative;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url(Poppins-Regular.ttf);
+}

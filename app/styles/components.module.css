@@ -1,0 +1,97 @@
+/* NAVBAR */
+
+.navbar_div {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.navbar_div > div {
+  position: relative;
+  width: 142px;
+  height: 142px;
+}
+
+/* QUARTER1 */
+
+.navbar_q_div1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 75px;
+  height: 75px;
+}
+.navbar_quarter1 {
+}
+.navbar_quarter1_icon {
+  position: absolute;
+  left: 10px;
+  top: 9px;
+}
+.navbar_q_div1:hover {
+  transform: translate(-35px, -35px) scale(2);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* QUARTER2 */
+
+.navbar_q_div2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 75px;
+  height: 75px;
+}
+.navbar_quarter2 {
+}
+.navbar_quarter2_icon {
+  position: absolute;
+  right: 27px;
+  top: 26px;
+}
+.navbar_q_div2:hover {
+  transform: translate(35px, -35px) scale(2);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* QUARTER3 */
+
+.navbar_q_div3 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 75px;
+  height: 75px;
+}
+.navbar_quarter3 {
+}
+.navbar_quarter3_icon {
+  position: absolute;
+  right: 15px;
+  bottom: 12px;
+}
+.navbar_q_div3:hover {
+  transform: translate(35px, 35px) scale(2);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* QUARTER4 */
+
+.navbar_q_div4 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 75px;
+  height: 75px;
+}
+.navbar_quarter4 {
+}
+.navbar_quarter4_icon {
+  position: absolute;
+  left: 15px;
+  bottom: 12px;
+}
+.navbar_q_div4:hover {
+  transform: translate(-35px, 35px) scale(2);
+  transition: transform 0.3s ease-in-out;
+}
