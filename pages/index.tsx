@@ -5,7 +5,7 @@ import NavBar from "@/app/components/NavBar";
 export default function Home() {
   return (
     <>
-      <NavBar />
+      <NavBar page="home" />
       <div className={styles.home_div}>
         <h1>Carbon Footprint</h1>
         <div>

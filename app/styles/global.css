@@ -1,8 +1,8 @@
 body {
-  /* background-color: #6fb06f; */
   background-color: #8ed78e;
   font-family: "poppins";
   position: relative;
+  /* height: 100%; */
 }
 
 @font-face {

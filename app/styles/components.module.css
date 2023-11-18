@@ -1,15 +1,29 @@
 /* NAVBAR */
 
 .navbar_div {
-  position: absolute;
-  top: 5%;
-  left: 5%;
+  /* height: 100%;
+  width: 100%; */
 }
 
-.navbar_div > div {
+/* TRANSPORTATION */
+
+.navbar_transportation {
+  /* position: absolute;
+  top: 150px;
+  left: 45%; */
   position: relative;
   width: 142px;
   height: 142px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.navbar_transportation > div {
+  /* position: relative;
+  width: 142px;
+  height: 142px; */
 }
 
 /* QUARTER1 */
@@ -95,3 +109,5 @@
   transform: translate(-35px, 35px) scale(2);
   transition: transform 0.3s ease-in-out;
 }
+
+/* CIRCULAR NAVBAR */
